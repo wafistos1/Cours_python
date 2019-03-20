@@ -19,5 +19,11 @@ echiquier['b', 2] = "pion blanc"
 
 print(echiquier)
 
+del echiquier['c', 1]
+echiquier.pop('b', 1)
+
+
+print(echiquier)
+
 if __name__ == "__main__":
     print("Salut")
